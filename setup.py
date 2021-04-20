@@ -193,7 +193,7 @@ else:
 
 def do_setup(**kwargs):
     setup(
-        name=NAME,
+        name='nubium-faust',
         version=meta['version'],
         description=meta['doc'],
         long_description=long_description,
